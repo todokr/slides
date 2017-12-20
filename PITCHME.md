@@ -37,9 +37,9 @@
 
 ## 今日のお題
 
-Scalaをとりあえず
+Scalaを
 
-- 書き始める
+- とりあえず書き始める
 - 布教する
 - チームで使う
 
@@ -104,3 +104,40 @@ val result = otherCoolMethod(someNiceMethod(42))
 - REPLと友だちになろう
 - ???でざっくりスケッチ
 - 謎の記号はscaps
+
+
+## 布教するときに知っておきたい
+
+- とりあえず読ませる本・記事 |
+- 学習のための良い資料 |
+- 最後の手段 |
+
+---
+
+### とりあえず読ませる記事
+
+- 興味を持ちそうな人に「これ読んでみなよ」と渡せるものがあると楽
+  - [Scala先駆者インタビュー](https://www.atware.co.jp/search?q=Scala%E5%85%88%E9%A7%86%E8%80%85%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC&f_collectionId=546d8fc4e4b06f0363347eaa)
+ - [Scala使用歴5年のプログラマが、この言語とその環境に関する神話を解き明かす](http://postd.cc/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
+ - [実践ScalaでDDD](https://speakerdeck.com/crossroad0201/scala-on-ddd)
+ 
+### 学習のための良い資料
+ 
+- 「Scalaスケーラブルプログラミング」
+  - 通称コップ本。教科書。
+- [「ドワンゴ Scala研修テキスト」](http://dwango.github.io/scala_text/)
+  - 入門的内容から関数型のエッセンスまでバランス良く含まれている
+ - gakuzzzzさんの資料
+   - [Readable Scala](http://gakuzzzz.github.io/slides/readable_scala)
+   - [Refactoring in Scala](http://gakuzzzz.github.io/slides/refactoring_in_scala)
+
+### 最後の手段
+ - 「Scala 年収」でググらせる
+
+## チームに導入するときに知っておきたい
+- 教育もセットで考える
+ - アドテクスタジオでは「アドテクDOJO（道場）⁠」という取り組みを定期的に開催しています。アドテクDOJO（道場）とは，「⁠師匠」と「弟子」の関係設定を設け，育成文化の一貫としてペアプログラミングを行う社内の取り組みです。これを利用してチーム内のメンバーとペアを組み，集中的にScalaの考え方や書き方を伝えました。
+ http://gihyo.jp/dev/serial/01/cyberagent/0063
+- どのくらい関数型スタイルを取り入れるかをちゃんと合意する
+  Javaのような書き方もできるし、関数型言語的な書き方も可能になっているなど、少しずつ関数型言語のパラダイムに移行するということも可能です。
+- 既に導入しているチームに聞きに行く
