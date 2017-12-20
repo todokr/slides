@@ -54,6 +54,7 @@ Scalaを
 - ???でざっくりスケッチ |
 - 謎の記号はscaps |
 
+---
 
 ### sbtは常駐させる
 - 「Scalaはコンパイルが遅い」→ 毎回sbt立ち上げてない？
@@ -67,10 +68,10 @@ Scalaを
 - Read Eval Print Loop
 - `$ scala`
   - Scalaの標準ライブラリのみのインタプリタを開始
- - `$ sbt console`
-   - コンパイル済のソースと依存ライブラリにクラスパスを通して、Scalaインタプリタを開始
- - scastie（https://scastie.scala-lang.org/）
-   - ブラウザから手軽に試せる
+- `$ sbt console`
+  - コンパイル済のソースと依存ライブラリにクラスパスを通して、Scalaインタプリタを開始
+- scastie（https://scastie.scala-lang.org/）
+  - ブラウザから手軽に試せる
 
 ---
 
@@ -88,7 +89,7 @@ def otherCoolMethod(x: Option[String]): String = ???
 val result = otherCoolMethod(someNiceMethod(42))
 ```
 
- ---
+---
  
 ### 謎の記号はscaps
 
@@ -105,6 +106,7 @@ val result = otherCoolMethod(someNiceMethod(42))
 - ???でざっくりスケッチ
 - 謎の記号はscaps
 
+---
 
 ## 布教するときに知っておきたい
 
@@ -121,6 +123,8 @@ val result = otherCoolMethod(someNiceMethod(42))
  - [Scala使用歴5年のプログラマが、この言語とその環境に関する神話を解き明かす](http://postd.cc/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
  - [実践ScalaでDDD](https://speakerdeck.com/crossroad0201/scala-on-ddd)
  
+---
+
 ### 学習のための良い資料
  
 - 「Scalaスケーラブルプログラミング」
@@ -130,6 +134,8 @@ val result = otherCoolMethod(someNiceMethod(42))
  - gakuzzzzさんの資料
    - [Readable Scala](http://gakuzzzz.github.io/slides/readable_scala)
    - [Refactoring in Scala](http://gakuzzzz.github.io/slides/refactoring_in_scala)
+
+---
 
 ### 最後の手段
  - 「Scala 年収」でググらせる
