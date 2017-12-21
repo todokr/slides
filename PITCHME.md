@@ -124,12 +124,12 @@ val result = otherCoolMethod(someNiceMethod(42))
 +++
 
 ### 学習のための良い資料
- 
-- [「ドワンゴ Scala研修テキスト」](http://dwango.github.io/scala_text/)
-  - 入門的内容から関数型のエッセンスまでバランス良く含まれている
+
+- [やってみよう Scala！ By Fringe81](https://qiita.com/f81@github/items/369d3ad97112b20d9bc5)
 - [Scala School](https://www.scala-exercises.org/)
   - Scalaチュートリアルや標準ライブラリのコースがおすすめ
  - gakuzzzzさんの資料
+   - [Scala の省略ルール早覚え](https://gist.github.com/gakuzzzz/10104162)
    - [Readable Scala](http://gakuzzzz.github.io/slides/readable_scala)
    - [Refactoring in Scala](http://gakuzzzz.github.io/slides/refactoring_in_scala)
 
