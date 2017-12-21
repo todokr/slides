@@ -53,14 +53,14 @@
 - ???でざっくりスケッチ |
 - 謎の記号はscapsで |
 
----
++++
 
 ### sbtは常駐させる
 - 「Scalaはコンパイルが遅い！」→ 毎回sbt立ち上げてない？
 - 常駐させたままコンパイルを繰り返すとJVMのwarmupで速度向上。落としたら負け。
 - `$ sbt xxx` ではなく、`$ sbt` してから `xxx`
 
---- 
++++
 
 ### REPLと友だちになろう
 
@@ -72,7 +72,7 @@
 - scastie（https://scastie.scala-lang.org/）
   - ブラウザから手軽に試せる
 
----
++++
 
 ### ???でざっくりスケッチ
 
@@ -88,7 +88,7 @@ def otherCoolMethod(x: Option[String]): String = ???
 val result = otherCoolMethod(someNiceMethod(42))
 ```
 
----
++++
  
 ### 謎の記号はscapsで
 
@@ -96,7 +96,7 @@ val result = otherCoolMethod(someNiceMethod(42))
 - ググると悲しい結果になる
 - そういうときはscapsで検索すると正体が分かる
 
----
++++
 
 ## とりあえず書き始めるときに知っておきたい
 
@@ -113,7 +113,7 @@ val result = otherCoolMethod(someNiceMethod(42))
 - 学習のための良い資料 |
 - 最後の手段 |
 
----
++++
 
 ### とりあえず読ませる記事
 
@@ -122,7 +122,7 @@ val result = otherCoolMethod(someNiceMethod(42))
   - [Scala使用歴5年のプログラマが、この言語とその環境に関する神話を解き明かす](http://postd.cc/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
   - [実践ScalaでDDD](https://speakerdeck.com/crossroad0201/scala-on-ddd)
  
----
++++
 
 ### 学習のための良い資料
  
@@ -134,11 +134,19 @@ val result = otherCoolMethod(someNiceMethod(42))
    - [Readable Scala](http://gakuzzzz.github.io/slides/readable_scala)
    - [Refactoring in Scala](http://gakuzzzz.github.io/slides/refactoring_in_scala)
 
----
++++
 
 ### 最後の手段
 
 - 「Scala 年収」でググってもらう |
+
++++
+
+## 布教し始めるときに知っておきたい
+
+- とりあえず読ませる本・記事
+- 学習のための良い資料
+- 最後の手段
 
 ---
 
@@ -148,13 +156,13 @@ val result = otherCoolMethod(someNiceMethod(42))
 - スタイルに合意しよう |
 - 既に使っているところに聞いてみよう |
 
----
++++
 
 ### 教育もセットで考えよう
 - 仕事で使おうとするとやっぱり独学は大変
 - 毎日プチ勉強会、ペアプロ、レビュー、困ったら直ぐ聞けるSlackチャンネルetc...
  
----
++++
 
 ### スタイルに合意しよう
 
@@ -163,7 +171,7 @@ val result = otherCoolMethod(someNiceMethod(42))
 - その分、人によってスタイルが揺れやすい
 - どの程度関数型に寄せるか？などは特に合意しておくとよさそう
 
----
++++
 
 ### 既に使っているところに聞いてみよう
 
@@ -171,7 +179,7 @@ val result = otherCoolMethod(someNiceMethod(42))
 - 遠慮せず他社の人に聞いてみよう
 - 「始めたての人がどういうところに戸惑うか」などは習熟者にとって貴重な情報
 
----
++++
 
 ## チームで使い始めるときに知っておきたい
 
