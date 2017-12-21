@@ -137,7 +137,7 @@ val result = otherCoolMethod(someNiceMethod(42))
 
 ### 最後の手段
 
-- 「Scala 年収」でググってもらう |
+- 「Scala 年収」でググってもらう😈 |
 
 +++
 
