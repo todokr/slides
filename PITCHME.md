@@ -1,4 +1,4 @@
-# とりあえずScalaを使い始めるときに  
+# とりあえずScalaをはじめるときに
 # 知っておきたい10のこと
 
 
@@ -37,13 +37,12 @@
 
 ## 今日のお題
 
-Scalaを
+- Scalaを書き始める
+- Scalaを布教し始める
+- Scalaをチームで使い始める
 
-- とりあえず書き始める
-- 布教する
-- チームで使う
-
-うえで知っておくとよさそうなことを紹介します
+ときに知っておくとよさそうなことを  
+独断と偏見で紹介します
 
 ---
 
@@ -57,9 +56,9 @@ Scalaを
 ---
 
 ### sbtは常駐させる
-- 「Scalaはコンパイルが遅い」→ 毎回sbt立ち上げてない？
+- 「Scalaはコンパイルが遅い！」→ 毎回sbt立ち上げてない？
 - 常駐させたままコンパイルを繰り返すとJVMのwarmupで速度向上。落としたら負け。
-- `$ sbt compile` ではなく、`$ sbt` → `compile` or `~compile`
+- `$ sbt xxx` ではなく、`$ sbt` してから `xxx`
 
 --- 
 
@@ -108,7 +107,7 @@ val result = otherCoolMethod(someNiceMethod(42))
 
 ---
 
-## 布教するときに知っておきたい
+## 布教し始めるときに知っておきたい
 
 - とりあえず読ませる本・記事 |
 - 学習のための良い資料 |
@@ -120,17 +119,17 @@ val result = otherCoolMethod(someNiceMethod(42))
 
 - 興味を持ちそうな人に「これ読んでみなよ」と渡せるものがあると楽
   - [Scala先駆者インタビュー](https://www.atware.co.jp/search?q=Scala%E5%85%88%E9%A7%86%E8%80%85%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC&f_collectionId=546d8fc4e4b06f0363347eaa)
- - [Scala使用歴5年のプログラマが、この言語とその環境に関する神話を解き明かす](http://postd.cc/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
- - [実践ScalaでDDD](https://speakerdeck.com/crossroad0201/scala-on-ddd)
+  - [Scala使用歴5年のプログラマが、この言語とその環境に関する神話を解き明かす](http://postd.cc/5-years-of-scala-and-counting-debunking-some-myths-about-the-language-and-its-environment/)
+  - [実践ScalaでDDD](https://speakerdeck.com/crossroad0201/scala-on-ddd)
  
 ---
 
 ### 学習のための良い資料
  
-- 「Scalaスケーラブルプログラミング」
-  - 通称コップ本。教科書。
 - [「ドワンゴ Scala研修テキスト」](http://dwango.github.io/scala_text/)
   - 入門的内容から関数型のエッセンスまでバランス良く含まれている
+- [Scala School](https://www.scala-exercises.org/)
+  - Scalaチュートリアルや標準ライブラリのコースがおすすめ
  - gakuzzzzさんの資料
    - [Readable Scala](http://gakuzzzz.github.io/slides/readable_scala)
    - [Refactoring in Scala](http://gakuzzzz.github.io/slides/refactoring_in_scala)
@@ -138,12 +137,54 @@ val result = otherCoolMethod(someNiceMethod(42))
 ---
 
 ### 最後の手段
- - 「Scala 年収」でググらせる
 
-## チームに導入するときに知っておきたい
-- 教育もセットで考える
- - アドテクスタジオでは「アドテクDOJO（道場）⁠」という取り組みを定期的に開催しています。アドテクDOJO（道場）とは，「⁠師匠」と「弟子」の関係設定を設け，育成文化の一貫としてペアプログラミングを行う社内の取り組みです。これを利用してチーム内のメンバーとペアを組み，集中的にScalaの考え方や書き方を伝えました。
- http://gihyo.jp/dev/serial/01/cyberagent/0063
-- どのくらい関数型スタイルを取り入れるかをちゃんと合意する
-  Javaのような書き方もできるし、関数型言語的な書き方も可能になっているなど、少しずつ関数型言語のパラダイムに移行するということも可能です。
-- 既に導入しているチームに聞きに行く
+- 「Scala 年収」でググってもらう |
+
+---
+
+## チームで使い始めるときに知っておきたい
+
+- 教育もセットで考えよう |
+- スタイルに合意しよう |
+- 既に使っているところに聞いてみよう |
+
+---
+
+### 教育もセットで考えよう
+- 仕事で使おうとするとやっぱり独学は大変
+- 毎日プチ勉強会、ペアプロ、レビュー、困ったら直ぐ聞けるSlackチャンネルetc...
+ 
+---
+
+### スタイルに合意しよう
+
+- Scalaは表現力が豊か
+- Javaのような書き方もできるし、関数型言語的な書き方も可能
+- その分、人によってスタイルが揺れやすい
+- どの程度関数型に寄せるか？などは特に合意しておくとよさそう
+
+---
+
+### 既に使っているところに聞いてみよう
+
+- やっぱり導入してみないと分からない問題もある
+- 遠慮せず他社の人に聞いてみよう
+- 「始めたての人がどういうところに戸惑うか」などは習熟者にとって貴重な情報
+
+---
+
+## チームで使い始めるときに知っておきたい
+
+- 教育もセットで考えよう
+- スタイルに合意しよう
+- 既に使っているところに聞いてみよう
+
+---
+
+Scalaを書こう  
+Scalaを布教しよう  
+Scalaをチームで使おう
+
+---
+
+### ありがとうございました
