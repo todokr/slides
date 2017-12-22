@@ -97,15 +97,6 @@ val result = otherCoolMethod(someNiceMethod(42))
 
 +++
 
-## とりあえず書き始めるときに知っておきたい
-
-- sbtは常駐させる
-- REPLと友だちになろう
-- ???でざっくりスケッチ
-- 謎の記号はscapsで
-
-+++
-
 ## 布教し始めるときに知っておきたい
 
 - とりあえず読ませる本・記事 |
@@ -126,7 +117,7 @@ val result = otherCoolMethod(someNiceMethod(42))
 ### 学習のための良い資料
 
 - [やってみよう Scala！ By Fringe81](https://qiita.com/f81@github/items/369d3ad97112b20d9bc5)
-- [Scala School](https://www.scala-exercises.org/)
+- [Scala Exercises](https://www.scala-exercises.org/)
   - Scalaチュートリアルや標準ライブラリのコースがおすすめ
  - gakuzzzzさんの資料
    - [Scala の省略ルール早覚え](https://gist.github.com/gakuzzzz/10104162)
@@ -137,15 +128,7 @@ val result = otherCoolMethod(someNiceMethod(42))
 
 ### 最後の手段
 
-- 「Scala 年収」でググってもらう😈 |
-
-+++
-
-## 布教し始めるときに知っておきたい
-
-- とりあえず読ませる本・記事
-- 学習のための良い資料
-- 最後の手段
+- 「Scala 年収」でググってもらう;) |
 
 +++
 
@@ -175,16 +158,8 @@ val result = otherCoolMethod(someNiceMethod(42))
 ### 既に使っているところに聞いてみよう
 
 - やっぱり導入してみないと分からない問題もある
-- 遠慮せず他社の人に聞いてみよう
+- 遠慮せず他社の人に聞いてみよう（弊社もウェルカム）
 - 「始めたての人がどういうところに戸惑うか」などは習熟者にとって貴重な情報
-
-+++
-
-## チームで使い始めるときに知っておきたい
-
-- 教育もセットで考えよう
-- スタイルに合意しよう
-- 既に使っているところに聞いてみよう
 
 +++
 
