@@ -93,7 +93,7 @@ val result = otherCoolMethod(someNiceMethod(42))
 
 - `???`を筆頭にググラビリティの低いメソッドなどがある
 - ググると悲しい結果になる
-- そういうときはscapsで検索すると正体が分かる
+- そういうときは[scaps](http://scala-search.org/)で検索すると正体が分かる
 
 +++
 
@@ -102,7 +102,7 @@ val result = otherCoolMethod(someNiceMethod(42))
 - sbtは常駐させる
 - REPLと友だちになろう
 - ???でざっくりスケッチ
-- 謎の記号はscaps
+- 謎の記号はscapsで
 
 +++
 
